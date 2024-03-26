@@ -5,7 +5,7 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 
 START_BUTTON = [
     [
-        Button.url(" 𝐌ᴜsɪᴄ ", "☔☔"),
+        Button.url(" 𝐌ᴜsɪᴄ ", "chla jaa xd"),
         Button.url("𝐎ᴡɴᴇʀ", "https://t.me/Homosapienhu")
     ],
     [
@@ -36,10 +36,10 @@ async def start(event):
         bot_name = AltBot.first_name
         bot_id = AltBot.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **my developer : [wandering soul](https://t.me/Homosapienhu)**\n\n"
-        TEXT += f"» **wandering bot version :** `M3.3`\n"
-        TEXT += f"» **python version :** `3.11.3`\n"
-        TEXT += f"» **telethon version :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ : [wandering_soul](https://t.me/Homosapienhu)**\n\n"
+        TEXT += f"» **ᴡᴀɴᴅᴇʀɪɴɢ ʙᴏᴛ ᴠᴇʀsɪᴏɴ :** `M3.3`\n"
+        TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
+        TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
                     "https://telegra.ph/file/7020ac6ebd771d2a8d050.jpg",
