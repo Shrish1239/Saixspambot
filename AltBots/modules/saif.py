@@ -13,7 +13,7 @@ START_BUTTON = [
         Button.url(" 𝐒𝚄𝙿𝙿𝙾𝚃  ", "https://t.me/sudeokeliyeaajaobclog")
     ],
     [
-        Button.url("𝐑ᴇᴘᴏ ", "CHLA JAA RANDI KE BACCHE ☔"),
+        Button.url("𝐑ᴇᴘᴏ ", "CHLA JAA RANDI KE BACCHE☔"),
       
     ]
 ]
@@ -42,7 +42,7 @@ async def start(event):
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
-                    "https://telegra.ph/file/7020ac6ebd771d2a8d050.jpg",
+                    "https://telegra.ph/file/85bfd8203a929e3521a14.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
 )
